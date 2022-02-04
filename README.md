@@ -30,6 +30,17 @@ The source code can be built using make. Executables will be placed under the bu
   - ℹ️ If you don't see a "Bash" option in the dropdown, click the plus icon to the right of the dropdown
 - Cool, now you are fully set up to begin developing on the project!
 
+# Testing
+- Open a terminal in VSCode (if you haven't already), from the Terminal menu at the top of the screen.
+- type `make test` and hit enter
+- if you see the following, the test was successful!
+```bash
+build/test_greeter
+Test makeGreeting passed!
+build/main
+Hello World!
+```
+- Once you see the above, the test is done, you can shut it all down! Thanks for your help. 💜Mark
 
 # Building (Compiling And Running Executables)
 - This project uses the `make` build system
