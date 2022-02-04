@@ -18,3 +18,6 @@ clean:
 	rm -rf build
 init:
 	mkdir -p build
+test: build_test
+	build/test_greeter
+	build/main
