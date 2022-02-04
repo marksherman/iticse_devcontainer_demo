@@ -12,7 +12,7 @@ The source code can be built using make. Executables will be placed under the bu
 - Download and install Docker Desktop: https://www.docker.com/products/docker-desktop
 - Make sure docker is running
 - Download and install VSCode
-- Open VSCode, click the "Extensions" icon on the left and install the "Remote Development" extension by Microsoft
+- Open VSCode, click the "Extensions" icon on the left and install the ["Remote Development" extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) by Microsoft
 ![Remote Development Extension](images/install-remote-development-extension.png "Remote Development Extension")
 - Open this project in VSCode
 - There will be a popup asking if you want to open it in a devcontainer:
